@@ -190,10 +190,10 @@ model.add_constraints(np.sum(arrTime[:,DestinationPort[k],:,k]) <= kDDL[k] for k
 ```
 
 ## Optimization Result & Solution
-With the objective & constraints built, the model is now complete! To make users understand the result easier, we process it with the function **txt_solution()** and save it into a text file [**Solution.txt**](https://github.com/hzjken/multimodal-transportation-optimization/blob/master/Solution.txt). The minimized cost value as well as optimal routes for all goods are presented in it. 
+With the objective & constraints built, the model is now complete! To make users understand the result easier, we process it with the function **txt_solution()** and save it into a text file [**Solution.txt**](https://github.com/paras07/Multi-modal-transit-optimization/blob/main/Solution.txt). The minimized cost value as well as optimal routes for all goods are presented in it. 
 
 ## Model Use & Extension Guide
-Now that you know about all the details of the model, if you want to use it, just download the [**multi-modal transportation.py**](https://github.com/hzjken/multimodal-transportation-optimization/blob/master/multi-modal%20transportation.py) & [**model data.xlsx**](https://github.com/hzjken/multimodal-transportation-optimization/blob/master/model%20data.xlsx) in this repo. You can reset all the parameters' data in the excel file to fit your own case. After that, just run the python file and your **Solution.txt** will be generated!
+Now that you know about all the details of the model, if you want to use it, just download the [**multi-modal transportation.py**](https://github.com/paras07/Multi-modal-transit-optimization/blob/main/multi-modal%20transportation.py) & [**model data.xlsx**](https://github.com/paras07/Multi-modal-transit-optimization/blob/main/model%20data.xlsx) in this repo. You can reset all the parameters' data in the excel file to fit your own case. After that, just run the python file and your **Solution.txt** will be generated!
 
 The code is written in OOP format, so you can easily modify or extend the **class MMT** to fit cases of more complex situations. You can also try modifying the assumptions such as making it to be a stochastic optimization problem or so on.
 
